@@ -5,28 +5,37 @@ const truths = {
         "Você já teve uma paixão secreta?",
         "Qual foi a maior mentira que você já contou?",
         "Se você pudesse mudar uma coisa em sua vida, o que seria?",
-        "Qual é o seu maior arrependimento?"
+        "Qual é o seu maior arrependimento?",
+        "Quem da roda é o mais chato?",
+        "Quem da roda é o mais legal?",
     ],
     medium: [
         "Qual foi o momento mais embaraçoso da sua vida?",
         "Você já traiu alguém?",
         "Se você tivesse que escolher entre riqueza e felicidade, o que escolheria?",
         "Qual é o segredo mais estranho que você guarda?",
-        "Você já fez algo ilegal?"
+        "Você já fez algo ilegal?",
+        "Quem da roda é o mais bonito?",
+        "Quem da roda você acha mais feio?",
     ],
     hard: [
         "Qual é o maior medo que você tem de um relacionamento?",
         "Se pudesse trair alguém e ninguém jamais soubesse, você faria?",
         "Qual é o maior arrependimento que você tem na vida?",
         "Já fez algo por vingança?",
-        "Qual é o seu maior segredo?"
+        "Qual é o seu maior segredo?",
+        "Quem da roda você teria nojo de beijar?",
+        "Quem da roda você acha mais sexy?"
     ],
     extreme: [
         "Qual foi a maior decisão errada que você já tomou?",
         "Você já contou uma mentira que mudou a vida de alguém?",
         "Se fosse revelar um segredo que pudesse prejudicar alguém, você o faria?",
         "Qual foi o maior erro de julgamento que você cometeu?",
-        "Já fez algo tão louco que se arrependeu imediatamente?"
+        "Já fez algo tão louco que se arrependeu imediatamente?",
+        "Com quem da roda é mais prová que você pensasse na hora do banho?",
+        "Com quem da roda você transaria?",
+        "Você ja se masturbou pensando em alguém da roda? Se sim, quem?",
     ]
 };
 
@@ -36,30 +45,46 @@ const challenges = {
         "Faça 10 flexões.",
         "Envie uma mensagem engraçada para um amigo.",
         "Imite um animal até alguém adivinhar qual é.",
-        "Dance por 1 minuto sem música."
+        "Dance por 1 minuto sem música.",
+        "Dê um selinho em alguém da roda.",
+        "Diga uma frase engraçada em voz alta.",
+        "Faça uma careta engraçada e mantenha por 10 segundos.",
     ],
     medium: [
         "Cante uma música em frente a todos.",
         "Faça 20 flexões.",
         "Faça uma dancinha engraçada por 30 segundos.",
         "Imite uma pessoa famosa até alguém adivinhar quem é.",
-        "Coma uma colher de molho picante."
+        "Coma uma colher de molho picante.",
+        "Dê um selinho em alguém da roda com a boca cheia.",
+        "Tire uma selfie engraçada e poste nas redes sociais.",
+        "Fale com um sotaque diferente por 2 minutos."
     ],
     hard: [
         "Dance como um profissional por 1 minuto.",
         "Fale 2 minutos sobre algo sem parar.",
         "Deixe alguém escrever algo no seu rosto com marcador.",
         "Desafie alguém para uma luta de travesseiros.",
-        "Fique em silêncio por 5 minutos."
+        "Fique em silêncio por 5 minutos.", 
+        "Passe agua da sua boca para a boca de alguém da roda.",
+        "Fique duas rodadas sentado no colo do proximo jogador.", 
+        "troque de roupa com alguém da roda.",
+        "mande mensagem se declarando para a 12ª pessoa da sua lista de seguindo do instagram.",
     ],
     extreme: [
         "Coma algo extremamente picante.",
         "Entre em uma piscina fria por 5 minutos.",
         "Fique em silêncio e faça uma performance de mímica por 2 minutos.",
         "Revele um segredo muito pessoal.",
-        "Imite uma cena de um filme com todos ao redor te assistindo."
+        "Imite uma cena de um filme com todos ao redor te assistindo.",
+        "Fique 10min em um quarto separado com o proximo jogador.", 
+        "Tire a roupa de alguém da roda.",
+        "Tire uma peça de roupa e jogue para alguém da roda.", 
+        "Mande uma mensagem para o seu ex dizendo que ainda gosta dele.",
+        "Mande uma mensagem para o seu crush dizendo que ama ele."
     ]
 };
+
 
 // Função para embaralhar um array
 function shuffleArray(array) {
